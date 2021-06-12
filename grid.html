@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+
+    <style>
+        .grid{
+            background-color: cyan;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-items: center;
+        }
+        .item{
+            background-color: salmon;
+            width: 100px;
+            height: 100px;
+            margin: 20px;
+        }
+
+        .img-post{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">CSS GRID</h1>
+    <section class="grid">
+        <div class="item-1">
+            <img src="imagenes/post-1.png" alt="" class="img-post">
+            <h4>TITULO</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia numquam itaque unde temporibus animi in ea dolorum incidunt, corporis nostrum similique expedita nesciunt ut quibusdam culpa molestiae rerum delectus doloremque.
+            </p>
+        </div>
+        <div class="item item-2">item-2</div>
+        <div class="item item-3">item-3</div>
+        <div class="item item-4">item-4</div>
+        <div class="item item-5">item-5</div>
+        <div class="item item-6">item-6</div>
+        <div class="item item-7">item-7</div>
+        <div class="item item-8">item-8</div>
+        <div class="item item-9">item-9</div>
+    </section>
+</body>
+</html>
